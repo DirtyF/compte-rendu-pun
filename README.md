@@ -52,6 +52,6 @@ Git offre de nombreuses possibilités en terme d'organisation, cependant un work
 * [Comprendre le GitHub Flow](https://guides.github.com/introduction/flow/)
 
 
-## [Le compte-rendu d'Anne-Laure Copinot et Marlène Tognifode]({{ site.baseurl }}{% link gestion-de-versions-numerique.md %})
+## [Le compte-rendu d'Anne-Laure Copinot et Marlène Tognifode](https://dirtyf.github.io/compte-rendu-pun/gestion-de-versions-numerique/)
 
 ## [Slides de présentation](./slides/)
