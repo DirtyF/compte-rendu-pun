@@ -1,11 +1,12 @@
 ---
-title: "Git et GitHub : gestion de versions et publication numérique"
+Title: "Git et GitHub : gestion de versions et publication numérique"
 date: 2017-10-19
-description: Compte-rendu d'Anne-Laure Copinot et de Marlène Tognifode de l'intervention du 19 octobre 2017 de Frank Taillandier au master en publicaition numérique de l'ENSSIB de Lyon
+description: Compte-rendu d'Anne-Laure Copinot et de Marlène Tognifode de l'intervention du 19 octobre 2017 de Frank Taillandier au master en publication numérique de l'ENSSIB de Lyon
 slug: gestion-de-versions-numerique
 authors:
   - acopinot
   - dirtyf
+  - Tulda
 ---
 
 # Présentation de Frank Taillandier
@@ -15,7 +16,7 @@ Contact: [Mail](mailto:frank@taillandier.me) · @DirtyF ·
 
 *Jeudi 19 octobre 2017*
 
-*Compte-rendu par [Anne Laure Copinot](https://github.com/acopinot) et Marlène Tognifode*
+*Compte-rendu par [Anne Laure Copinot](https://github.com/acopinot) et [Marlène Tognifode](https://github.com/Tulda)* 
 
 ##	Introduction
 
@@ -73,7 +74,7 @@ pour la sous-commande `add` de `git`.
 
 On pourra aussi se référer à cet aide-mémoire visuel des [commandes Git](https://ndpsoftware.com/git-cheatsheet.html).
 
-Cet aide-mémoire a le mérite de bien distinguer les différents étapes nécessaires à la publication dans Git :
+Cet aide-mémoire a le mérite de bien distinguer les différentes étapes nécessaires à la publication dans Git :
 
 * L’espace de travail local qui correspond aux fichiers présents dans le dossier — mais pas forcément encore versionnés.
 * l’**index**, parfois aussi appelé `staging` qui joue le rôle d’espace de transit pour les sélection les fichiers à versionner et à regrouper dans un `commit`.
@@ -91,7 +92,7 @@ Le guide de [GitHub](https://guides.github.com/) détaille le WorkFlow et son fl
 
 ### Vocabulaire et workflow
 
-Comme tout logiciel en ligne de commande Git est en anglais. Il en va de même pour GitHub dont l'interface n'est pas disponible en français. Il est donc important de connaitre les termes  de référence en anglais.
+Comme tout logiciel en ligne de commande, Git est en anglais. Il en va de même pour GitHub dont l'interface n'est pas disponible en français. Il est donc important de connaitre les termes de référence en anglais.
 
 GitHub propose également [`hub`](https://hub.github.com/) un utilitaire en ligne de commande qui permet d'interagir avec GitHub.
 
@@ -124,10 +125,10 @@ Le musée Getty développe un nouvel outil d’édition, **Quire**, qui permet l
 [Quire](https://www.getty.edu/publications/digital/platforms-tools.html) a plusieurs objectifs complémentaires, et permet notamment :
 
 -	de rendre le travail de publication moins coûteux car les contraintes technologiques sont moindres qu’avec un déploiement basé sur un logiciel complexe de type CMS (*Content Management System*),
--	d’assurer aux auteurs et éditeurs la pérennité et de leurs documents grâce à l’utilisation de formats standards en texte brut, contrairement aux outils propriétaires où l'on est dépendant d'un éditeur pour ouvrir un document,
+-	d’assurer aux auteurs et éditeurs la pérennité de leurs documents grâce à l’utilisation de formats standards en texte brut, contrairement aux outils propriétaires où l'on est dépendant d'un éditeur pour ouvrir un document,
 -	de produire un travail de design et typographique de qualité grâce aux possibilités de CSS,
 -	de faciliter les mises à jour en continu, car le temps de génération est extrêmement court, de l'ordre de quelques secondes avec Hugo.
--	de simplifier l'export au format Epub et de proposer des formats de livres numériques pour différentes plate-forme en ligne (Amazon, Google, Apple).
+-	de simplifier l'export au format Epub et de proposer des formats de livres numériques pour différentes plate-formes en ligne (Amazon, Google, Apple).
 
 Les fichiers sont écrits sur l’ordinateur local de l’éditeur, dans un langage de balisage léger, *Markdown*.
 
