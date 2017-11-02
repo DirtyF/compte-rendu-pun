@@ -1,5 +1,5 @@
 ---
-Title: "Git et GitHub : gestion de versions et publication numérique"
+title: "Git et GitHub : gestion de versions et publication numérique"
 date: 2017-10-19
 description: Compte-rendu d'Anne-Laure Copinot et de Marlène Tognifode de l'intervention du 19 octobre 2017 de Frank Taillandier au master en publication numérique de l'ENSSIB de Lyon
 slug: gestion-de-versions-numerique
