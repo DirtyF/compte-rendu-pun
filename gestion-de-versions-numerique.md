@@ -16,7 +16,7 @@ Contact: [Mail](mailto:frank@taillandier.me) · @DirtyF ·
 
 *Jeudi 19 octobre 2017*
 
-*Compte-rendu par [Anne Laure Copinot](https://github.com/acopinot) et [Marlène Tognifode](https://github.com/Tulda)* 
+*Compte-rendu par [Anne Laure Copinot](https://github.com/acopinot) et [Marlène Tognifode](https://github.com/Tulda)*
 
 ##	Introduction
 
@@ -32,15 +32,15 @@ Afin d’assurer le développement de tout ce contenu web , il est indispensable
 
 Il existe de nombreux outils de gestion de versions : Git s'est rapidement imposé et a entrainé l'apparition de plate-formes comme GitHub.
 
-Git et Github permettent de travailler de manière collaborative, en créant des branches du projet : cela permet de faire des modifications sur un projet dans un espace précis. Ces modifications seront ensuite fusionnées dans la branche maitresse, la *master branch* du projet.
+Git et Github permettent de travailler de manière collaborative, en créant des branches du projet : cela permet de faire des modifications sur un projet dans un espace précis. Ces modifications seront ensuite fusionnées dans la branche maîtresse, la *master branch* du projet.
 
-C’est cette capacité de branchements et les techniques collaboratives Open source (échanges avec par exemple des révisions de fichiers par paires – *peer to peer review*-), qui donnent à Git et GitHub toute leur force dans un environnement Web où il faut être très réactif.
+C’est cette capacité de branchements et les techniques collaboratives Open source (échanges avec par exemple des révisions de fichiers par paires – *peer to peer review*), qui donnent à Git et GitHub toute leur force dans un environnement Web où il faut être très réactif.
 
 **Git** est un outil de gestion de versions, principalement utilisé par des développeurs, qui fonctionne en ligne de commande.
 
-**Github** est devenu le plus grand réseau social pour les développeurs, et inclut une partie des fonctionnalités de Git avec en plus un service en ligne permettant d’héberger du code open source et d'échanger à propos du code et des modifications.
+**GitHub** est devenu le plus grand réseau social pour les développeurs, et inclut une partie des fonctionnalités de Git avec en plus un service en ligne permettant d’héberger du code open source et d'échanger à propos du code et des modifications.
 
-En 2017, on compte dans le monde 24 millions d’utilisateurs (dont la moitié d’étudiants), 67 millions de projets, 1.5 millions d’organisations (dont des grands noms tels Microsoft et Google) et a eu lieu le 1 milliardième merge, qui se trouve être un document. Voir [https://octoverse.github.com/](https://octoverse.github.com/)
+En 2017, on compte dans le monde 24 millions d’utilisateurs (dont la moitié d’étudiants), 67 millions de projets, 1,5 millions d’organisations (dont des grands noms tels Microsoft et Google) et a eu lieu le 1 milliardième merge, qui se trouve être un document. Voir [https://octoverse.github.com/](https://octoverse.github.com/)
 
 ##	Utilisation de Git et GitHub
 
@@ -83,7 +83,7 @@ Cet aide-mémoire a le mérite de bien distinguer les différentes étapes néce
 
 Commande Git : `git remote -v` pour afficher tous les dépôts distants (il peut y en avoir plusieurs, en général un par collaborateur, il est ainsi possible de suivre le travail de chacun). La commande `git remote add` permet d'ajouter un dépôt distant.
 
-###	Github
+###	GitHub
 GitHub propose un service gratuit pour les projets sous licence libre ainsi qu'une interface plus simple d’utilisation que Git et vient offrir en plus de l'interaction et de la gestion de projet. C'est ce service que nous devrions utiliser.
 
 Le guide de [GitHub](https://guides.github.com/) détaille le WorkFlow et son flux de travail dans l’utilisation de GitHub.
@@ -92,7 +92,7 @@ Le guide de [GitHub](https://guides.github.com/) détaille le WorkFlow et son fl
 
 ### Vocabulaire et workflow
 
-Comme tout logiciel en ligne de commande, Git est en anglais. Il en va de même pour GitHub dont l'interface n'est pas disponible en français. Il est donc important de connaitre les termes de référence en anglais.
+Comme tout logiciel en ligne de commande, Git est en anglais. Il en va de même pour GitHub dont l'interface n'est pas disponible en français. Il est donc important de connaître les termes de référence en anglais.
 
 GitHub propose également [`hub`](https://hub.github.com/) un utilitaire en ligne de commande qui permet d'interagir avec GitHub.
 
@@ -120,7 +120,7 @@ Pour démarrer et se familiariser avec le workflow, le mieux est de commencer pa
 
 Le [musée Getty](http://www.getty.edu/), situé à Los Angeles, a un centre de publication dédié, qui produit des livres papier et numériques dans les domaines de l’histoire de l’art, l’architecture, la photographie…
 
-Le musée Getty développe un nouvel outil d’édition, **Quire**, qui permet l’optimisation de la chaine de publication numérique, à l'aide d'un générateur de site statique, [**Hugo**](https://gohugo.io/) et d'un gabarit de livre numérique prêt à l'emploi.
+Le musée Getty développe un nouvel outil d’édition, **Quire**, qui permet l’optimisation de la chaîne de publication numérique, à l'aide d'un générateur de site statique, [**Hugo**](https://gohugo.io/) et d'un gabarit de livre numérique prêt à l'emploi.
 
 [Quire](https://www.getty.edu/publications/digital/platforms-tools.html) a plusieurs objectifs complémentaires, et permet notamment :
 
@@ -138,11 +138,11 @@ Le générateur de site statique va ensuite transformer les fichiers Markdown en
 
 Afin de faire une modification dans le contenu éditorial, il suffit donc de changer le fichier de l’éditeur en local puis de remettre à jour les fichiers sur le serveur grâce au logiciel Quire : le lecteur a ainsi directement accès aux dernières modifications de l’édition.
 
-La chaine de publication est donc réduite au minimum et est ainsi extrêmement souple et rapide, limitant aussi les erreurs qui se multiplient quand l’environnement technique se complexifie.
+La chaîne de publication est donc réduite au minimum et est ainsi extrêmement souple et rapide, limitant aussi les erreurs qui se multiplient quand l’environnement technique se complexifie.
 
 Malgré le nom de « statique », les sites statiques peuvent être dynamiques et interactifs grâce à l’utilisation des outils de plateformes web (HTML5, CCS3 et Javascript). Quire permet par exemple aux lecteurs de faire des recherches dans le livre.
 
-On peut retrouver tout le projet de publication numérique du [Getty sur GitHub.](https://github.com/gettypubs)
+On peut retrouver tous les projets de publication numérique du [Getty sur GitHub.](https://github.com/gettypubs)
 
 ##	En conclusion
 
