@@ -16,7 +16,8 @@ Contact: [Mail](mailto:frank@taillandier.me) · @DirtyF ·
 
 *Jeudi 19 octobre 2017*
 
-*Compte-rendu par [Anne Laure Copinot](https://github.com/acopinot) et [Marlène Tognifode](https://github.com/Tulda)*
+*Compte-rendu par [Anne Laure Copinot](https://github.com/acopinot) et [Marlène Tognifode](https://github.com/Tulda)*  
+*[Source de ce document disponible en ligne sur GitHub](https://github.com/DirtyF/compte-rendu-pun)*
 
 ##	Introduction
 
@@ -100,21 +101,21 @@ GitHub propose également [`hub`](https://hub.github.com/) un utilitaire en lign
 
 1. **Créer une branche**: avec la création d’une branche dans un projet, on crée un environnement permettant de développer de nouvelles idées qui n’affectent pas la branche principale du projet.
    En général, la durée de vie d'une branche correspond au temps qui se sera écoulé entre les modifications faites dessus et la fusion dans la branche principale. La branche pourra ensuite être supprimée puisque toutes les modifications ainsi que l'historique auront été intégrés.
-Commande git : `git branch ma-branche-de-travail; git checkout ma-branche-de-travail` ou en une seule fois `git checkout -b ma-branche-de-travail` pour créer la branche et se positionner dessus pour commencer à travailler.
+   Commande git : `git branch ma-branche-de-travail; git checkout ma-branche-de-travail` ou en une seule fois `git checkout -b ma-branche-de-travail` pour créer la branche et se positionner dessus pour commencer à travailler.
 2. **Enregistrer ses modifications** : après la création de la branche, on peut faire des changements dans les fichiers (ajout, édition, déplacement, suppression). On enregistre ensuite ses changements en faisant des `commits`. Pour chaque `commit` on pourra afficher les différences avant/après des modifications apportées. Cela permet à tous de voir les différentes versions des fichiers et de comprendre l’évolution du travail.
-Commandes git : `git diff`, `git diff --staged` et `git commit -m "mon message de commit"`.
-La consultation des différences est beaucoup plus lisible sur GitHub.
+  Commandes git : `git diff`, `git diff --staged` et `git commit -m "mon message de commit"`.
+  La consultation des différences est beaucoup plus lisible sur GitHub.
 3. **Ouvrir une pull request**: une `pull request` est une étape nécessaire pour faire une demande de fusion de branche. Comme créer des branches est très simple avec Git ou GitHub, cela permet d’entamer une discussion même si peu ou pas de modifications ont été effectuées. On peut ensuite continuer de travailler sur la branche correspondante à la PR et ajouter des commits supplémentaires suite aux retours. C'est dans les pull requests qu'ont lieu les discussions importantes.
-La `pull request` se fait une fois que la branche de travail a été poussée sur le dépôt distant avec `git push`.
-Se reporter à l'aide de GitHub pour apprendre à créer des pull requests : [https://help.github.com/articles/about-pull-requests/](https://help.github.com/articles/about-pull-requests/)
-À noter qu'il est possible d'ajouter des fichiers, de les modifier, de créer des branches et des pull requests entièrement depuis GitHub et donc sans passer par la ligne de commande. Cela demande donc d'avoir un accès internet.
-Pour les modifications importantes, on préfèrera travailler tranquillement sur son dépôt local et soumettre les modifications une fois le travail terminé, cependant pour de petites modifications, passer uniquement par GitHub simplifie beaucoup le processus.
+  La `pull request` se fait une fois que la branche de travail a été poussée sur le dépôt distant avec `git push`.
+  Se reporter à l'aide de GitHub pour apprendre à créer des pull requests : [https://help.github.com/articles/about-pull-requests/](https://help.github.com/articles/about-pull-requests/)
+  À noter qu'il est possible d'ajouter des fichiers, de les modifier, de créer des branches et des pull requests entièrement depuis GitHub et donc sans passer par la ligne de commande. Cela demande donc d'avoir un accès internet.
+  Pour les modifications importantes, on préfèrera travailler tranquillement sur son dépôt local et soumettre les modifications une fois le travail terminé, cependant pour de petites modifications, passer uniquement par GitHub simplifie beaucoup le processus.
 4. **Discussions et revue de code** : c'est également dans les *pull request* que les personnes en charge du projet vont pouvoir valider les changements proposés via la revue de code. GitHub permettant d'insérer des commentaires sur les changements apportés, c'est très pratique pour faire des retours très précis à l'auteur de la *pull request*. Sur les projets logiciels importants, il est souvent exigé que deux personnes relisent ces modifications afin de favoriser la connaissance partagée du projet.
 5. **Fusion des branches** : une fois tous les changements revus et acceptés, la branche créée converge - en général vers la branche `master`. En anglais, cette opération se dit `merge`.
-GitHub facilite la fusion de branches en s'affranchissant de la ligne de commande, mais c'est une commande de base de Git (`git merge`).
+  GitHub facilite la fusion de branches en s'affranchissant de la ligne de commande, mais c'est une commande de base de Git (`git merge`).
 6. **Déploiement** : une fois la `pull request` revue et acceptée, la branche peut être fusionnée (`merge`) et les changements déployés (`deploy`).
-Grâce au versionnement, en cas de problème ultérieur, il est toujours possible de revenir en arrière et de se positionner dans un état précédent.
-Pour démarrer et se familiariser avec le workflow, le mieux est de commencer par faire [ce tutoriel en ligne](https://try.github.io/levels/1/challenges/1) qui constitue une bonne introduction au fonctionnement de GitHub.
+  Grâce au versionnement, en cas de problème ultérieur, il est toujours possible de revenir en arrière et de se positionner dans un état précédent.
+  Pour démarrer et se familiariser avec le workflow, le mieux est de commencer par faire [ce tutoriel en ligne](https://try.github.io/levels/1/challenges/1) qui constitue une bonne introduction au fonctionnement de GitHub.
 
 ## GitHub et la publication numérique : le projet Getty
 
@@ -125,10 +126,10 @@ Le musée Getty développe un nouvel outil d’édition, **Quire**, qui permet l
 [Quire](https://www.getty.edu/publications/digital/platforms-tools.html) a plusieurs objectifs complémentaires, et permet notamment :
 
 -	de rendre le travail de publication moins coûteux car les contraintes technologiques sont moindres qu’avec un déploiement basé sur un logiciel complexe de type CMS (*Content Management System*),
--	d’assurer aux auteurs et éditeurs la pérennité de leurs documents grâce à l’utilisation de formats standards en texte brut, contrairement aux outils propriétaires où l'on est dépendant d'un éditeur pour ouvrir un document,
--	de produire un travail de design et typographique de qualité grâce aux possibilités de CSS,
--	de faciliter les mises à jour en continu, car le temps de génération est extrêmement court, de l'ordre de quelques secondes avec Hugo.
--	de simplifier l'export au format Epub et de proposer des formats de livres numériques pour différentes plate-formes en ligne (Amazon, Google, Apple).
+  -d’assurer aux auteurs et éditeurs la pérennité de leurs documents grâce à l’utilisation de formats standards en texte brut, contrairement aux outils propriétaires où l'on est dépendant d'un éditeur pour ouvrir un document,
+  -de produire un travail de design et typographique de qualité grâce aux possibilités de CSS,
+  -de faciliter les mises à jour en continu, car le temps de génération est extrêmement court, de l'ordre de quelques secondes avec Hugo.
+  -de simplifier l'export au format Epub et de proposer des formats de livres numériques pour différentes plate-formes en ligne (Amazon, Google, Apple).
 
 Les fichiers sont écrits sur l’ordinateur local de l’éditeur, dans un langage de balisage léger, *Markdown*.
 
